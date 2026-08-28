@@ -102,7 +102,7 @@ test('Cart - Verify Checkout button', async ({ page }) => {
 
 });
 
-test('Cart - Verify all required buttons are displayed', async ({ page }) => {
+test('Verify all required buttons are displayed in cart', async ({ page }) => {
 
   // Verify Remove button for each product
   await verifyRemoveButtonForEachProduct(page);
